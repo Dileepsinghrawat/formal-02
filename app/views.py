@@ -14,6 +14,6 @@ import stripe
 
 
 # Product Index
-@app.route('/product')
+@app.route('/products')
 def hello_world():
   return 'Hello World akhil'
