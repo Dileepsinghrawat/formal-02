@@ -80,7 +80,7 @@ def hello_world():
 
 
 #@app.route('/', defaults={'path': 'products/index.html'})
-@app.route('/products/', defaults={'path': 'products/index.html'})
+#@app.route('/products/', defaults={'path': 'products/index.html'})
 def products_index(path):
 
     # Collect Products
